@@ -1,0 +1,59 @@
+{
+   "questions" : [
+      {
+         "id" : 1,
+         "text" : "Wie ist die Situation für Flüchtlinge auf dem Arbeitsmarkt?",
+         "answers" : [
+            {
+               "text" : "Auf dem Arbeitsmarkt werden Flüchtlinge besonders bevorzugt.",
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "isCorrect" : false,
+               "id" : 1,
+               "feedback" : "Flüchtlinge werden nicht auf dem Arbeitsmarkt bevorzugt. Asylsuchende und geduldete Personen dürfen in den ersten drei Monaten ihres Aufenthalts gar nicht arbeiten. Auch danach haben sie relativ schlechte Chancen auf einen Job, weil es „bevorrechtigte Arbeitnehmer“ gibt, d.h. Deutsche und EU-Ausländer."
+            },
+            {
+               "isCorrect" : true,
+               "id" : 2,
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "text" : "Auf dem Arbeitsmarkt stehen Flüchtlinge Deutschen und EU-Ausländern.",
+               "feedback" : "Das stimmt. Das deutsche Recht bevorzugt auf dem Arbeitsmarkt Deutsche und EU-Ausländer."
+            },
+            {
+               "text" : "Auf dem Arbeitsmarkt bekommen Fluechtlinge meistens hochqualifizierte Stellen.",
+               "id" : 3,
+               "isCorrect" : false,
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "feedback" : "Das stimmt nicht. Sowie auch andere Ausländer in Deutschland, arbeiten Flüchtlinge überwiegend in anstrengende Bereichen wie z.B. saisonale und Nachtarbeit. Außerdem sind viele ausländische Arbeitnehmer mit beruflichem Abschluss überqualifiziert – 22,5% im Vergleich zu 10,6% der Deutschen."
+            }
+         ],
+         "title" : "Anteil von Muslimen in Deutschland"
+      },
+      {
+         "id" : 2,
+         "text" : "Wie groß ist der Anteil der Muslime an der Gesamtbevölkerung in Deutschland?",
+         "answers" : [
+            {
+               "id" : 1,
+               "text" : "25%",
+               "isCorrect" : false,
+               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+            },
+            {
+               "id" : 2,
+               "text" : "10%",
+               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
+               "isCorrect" : false,
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+            },
+            {
+               "id" : 3,
+               "text" : "5%",
+               "isCorrect" : true,
+               "feedback" : "Das stimmt. Bundesweit liegt der Anteil der Muslime an der Gesamtbevölkerung zwischen 4,6% und 5,2%. In München liegt die Zahl der Muslime bei ca. 6% der Bevölkerung.",
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+            }
+         ]
+      }
+   ]
+}
