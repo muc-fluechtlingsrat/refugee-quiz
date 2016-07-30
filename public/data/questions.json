@@ -1,57 +1,86 @@
 {
    "questions" : [
       {
-         "id" : 1,
-         "text" : "Wie ist die Situation für Flüchtlinge auf dem Arbeitsmarkt?",
          "answers" : [
             {
-               "text" : "Auf dem Arbeitsmarkt werden Flüchtlinge besonders bevorzugt.",
-               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
                "isCorrect" : false,
+               "feedback" : "Flüchtlinge werden nicht auf dem Arbeitsmarkt bevorzugt. Asylsuchende und geduldete Personen dürfen in den ersten drei Monaten ihres Aufenthalts gar nicht arbeiten. Auch danach haben sie relativ schlechte Chancen auf einen Job, weil es „bevorrechtigte Arbeitnehmer“ gibt, d.h. Deutsche und EU-Ausländer.",
                "id" : 1,
-               "feedback" : "Flüchtlinge werden nicht auf dem Arbeitsmarkt bevorzugt. Asylsuchende und geduldete Personen dürfen in den ersten drei Monaten ihres Aufenthalts gar nicht arbeiten. Auch danach haben sie relativ schlechte Chancen auf einen Job, weil es „bevorrechtigte Arbeitnehmer“ gibt, d.h. Deutsche und EU-Ausländer."
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "text" : "Auf dem Arbeitsmarkt werden Flüchtlinge besonders bevorzugt."
             },
             {
                "isCorrect" : true,
+               "feedback" : "Das stimmt. Das deutsche Recht bevorzugt auf dem Arbeitsmarkt Deutsche und EU-Ausländer.",
                "id" : 2,
                "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
-               "text" : "Auf dem Arbeitsmarkt stehen Flüchtlinge Deutschen und EU-Ausländern.",
-               "feedback" : "Das stimmt. Das deutsche Recht bevorzugt auf dem Arbeitsmarkt Deutsche und EU-Ausländer."
+               "text" : "Auf dem Arbeitsmarkt stehen Flüchtlinge Deutschen und EU-Ausländern."
             },
             {
-               "text" : "Auf dem Arbeitsmarkt bekommen Fluechtlinge meistens hochqualifizierte Stellen.",
-               "id" : 3,
-               "isCorrect" : false,
                "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
-               "feedback" : "Das stimmt nicht. Sowie auch andere Ausländer in Deutschland, arbeiten Flüchtlinge überwiegend in anstrengende Bereichen wie z.B. saisonale und Nachtarbeit. Außerdem sind viele ausländische Arbeitnehmer mit beruflichem Abschluss überqualifiziert – 22,5% im Vergleich zu 10,6% der Deutschen."
+               "text" : "Auf dem Arbeitsmarkt bekommen Flüchtlinge meistens hochqualifizierte Stellen.",
+               "isCorrect" : false,
+               "feedback" : "Das stimmt nicht. Sowie auch andere Ausländer in Deutschland, arbeiten Flüchtlinge überwiegend in anstrengende Bereichen wie z.B. saisonale und Nachtarbeit. Außerdem sind viele ausländische Arbeitnehmer mit beruflichem Abschluss überqualifiziert – 22,5% im Vergleich zu 10,6% der Deutschen.",
+               "id" : 3
+            }
+         ],
+         "id" : 1,
+         "title" : "Flüchtlinge und der Arbeitsmarkt",
+         "text" : "Wie ist die Situation für Flüchtlinge auf dem Arbeitsmarkt?"
+      },
+      {
+         "text" : "Wie groß ist der Anteil der Muslime an der Gesamtbevölkerung in Deutschland?",
+         "id" : 2,
+         "answers" : [
+            {
+               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
+               "id" : 1,
+               "isCorrect" : false,
+               "text" : "25%",
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+            },
+            {
+               "id" : 2,
+               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
+               "isCorrect" : false,
+               "text" : "10%",
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+            },
+            {
+               "id" : 3,
+               "feedback" : "Das stimmt. Bundesweit liegt der Anteil der Muslime an der Gesamtbevölkerung zwischen 4,6% und 5,2%. In München liegt die Zahl der Muslime bei ca. 6% der Bevölkerung.",
+               "isCorrect" : true,
+               "text" : "5%",
+               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
             }
          ],
          "title" : "Anteil von Muslimen in Deutschland"
       },
       {
-         "id" : 2,
-         "text" : "Wie groß ist der Anteil der Muslime an der Gesamtbevölkerung in Deutschland?",
+         "text" : "Im internationalem Vergleich der Anzahl an aufgenommenen Flüchtlinge pro Kopf: Auf welchem Platz lag Deutschland in 2015?",
+         "title" : "Nimmt Deutschland mehr Flüchtlinge pro Einwohner auf, als andere Länder?",
+         "id" : 3,
          "answers" : [
             {
-               "id" : 1,
-               "text" : "25%",
+               "source" : "UNCHR Global Trends 2015",
+               "text" : "Auf Platz 1",
                "isCorrect" : false,
-               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
-               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+               "feedback" : "Das stimmt nicht. Auf Platz 1 lag der Libanon mit 183 Fluechtlinge pro 1000 Einwohner. Die Türkei (75 Millionen Einwohner) hat in den vergangenen Jahren mehr Flüchtlinge aus Syrien (ca. 2 Millionen) und dem Irak aufgenommen, als alle Länder der EU (ca. 500 Millionen Einwohner) zusammen.",
+               "id" : 1
             },
             {
+               "isCorrect" : false,
+               "feedback" : "Das stimmt nicht. Viele Länder in der Nachbarschaft von Krisengebiete wie z.B. Libanon, Jordanien oder Kenya, liegen weit vor. Die meisten der weltweit ca. 60 Millionen Flüchtlinge kommen aus Entwicklungsländer und fliehen entweder im eigenen Heimat oder in andere Entwicklungsländer.",
                "id" : 2,
-               "text" : "10%",
-               "feedback" : "Das stimmt nicht. Der Anteil der Muslime liegt deutlich niedriger.",
-               "isCorrect" : false,
-               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+               "source" : "UNCHR Global Trends 2015",
+               "text" : "Auf Platz 10"
             },
             {
-               "id" : 3,
-               "text" : "5%",
+               "source" : "UNCHR Global Trends 2015",
+               "text" : "Auf Platz 50",
                "isCorrect" : true,
-               "feedback" : "Das stimmt. Bundesweit liegt der Anteil der Muslime an der Gesamtbevölkerung zwischen 4,6% und 5,2%. In München liegt die Zahl der Muslime bei ca. 6% der Bevölkerung.",
-               "source" : "Sachverständigenrat Deutscher Stiftungen für Integration und Migration, 2014, zitiert von Landeshauptstadt München"
+               "feedback" : "Das stimmt. Nur ein Bruchteil der weltweit ca. 60 Millionen Flüchtlinge erreicht die Industrieländer (z.B. Europa). Die meisten fliehen entweder im eigenen Heimat oder in andere Entwicklungsländer.",
+               "id" : 3
             }
          ]
       }
