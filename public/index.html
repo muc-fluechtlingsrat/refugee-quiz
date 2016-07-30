@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Refugee Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+<h1 class="app-title">Refugee Quiz</h1>
+
+<div class="questions">
+    <div id="view-container">
+        <p>Lädt&hellip;</p>
+    </div>
+</div>
+
+<script type="x/template" data-template="question">
+    <form class="question">
+        <h2 class="question__title"><%- title %></h2>
+        <p class="question__text"><%= text %></p>
+
+        <ul class="questions__answers">
+            <% answers.map(function (answer) { %>
+            <li class="answer">
+                <input class="answer__input" type="radio" id="question-<%- id %>-answer-<%- answer.id %>" name="answer" value="<%- answer.id %>">
+                <label class="answer__label" for="question-<%- id %>-answer-<%- answer.id %>"><%- answer.text %></label>
+            </li>
+            <% }); %>
+        </ul>
+
+        <p class="question__feedback" data-hook="feedback"></p>
+
+        <button class="question__submit question__submit--active" type="submit" data-hook="submit">
+            Antwort absenden
+        </button>
+        <button class="question__next" type="button" data-hook="next">
+            Weiter
+        </button>
+    </form>
+</script>
+
+<script type="x/template" data-template="conclusion">
+    <p>Du hast <%- score %> von <%- count %> Fragen richtig beantwortet!</p>
+</script>
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/underscore/underscore-min.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>

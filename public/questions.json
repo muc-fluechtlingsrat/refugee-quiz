@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "Wie viele Flüchtlinge nimmt Deutschland auf?",
+      "text": "Wie viele Flüchtliche hat Deutschland 2014 pro 1000 Einwohner aufgenommen?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "2",
+          "isCorrect": true,
+          "feedback": "Ja, das ist richtig!!"
+        },
+        {
+          "id": 2,
+          "text": "3 oder mehr",
+          "isCorrect": false,
+          "feedback": "Leider falsch, die richtige Antwort wäre 2 gewesen."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2Wie viele Flüchtlinge nimmt Deutschland auf?",
+      "text": "2Wie viele Flüchtliche hat Deutschland 2014 pro 1000 Einwohner aufgenommen?",
+      "answers": [
+        {
+          "id": 3,
+          "text": "2",
+          "isCorrect": true,
+          "feedback": "Ja, das ist richtig!!"
+        },
+        {
+          "id": 4,
+          "text": "3 oder mehr",
+          "isCorrect": false,
+          "feedback": "Leider falsch, die richtige Antwort wäre 2 gewesen."
+        }
+      ]
+    }
+  ]
+}

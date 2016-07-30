@@ -1,0 +1,11 @@
+{
+  "name": "refugee-quiz",
+  "homepage": "https://github.com/muc-fluechtlingsrat/refugee-quiz",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3"
+  }
+}
