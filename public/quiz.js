@@ -40,8 +40,13 @@
         });
 
         $questionForm.find('[data-hook="next"]').on('click', function () {
-            state.currentQuestion += 1;
-            renderCurrentQuestion();
+            if(state.currentQuestion < state.questions.length - 1) {
+                state.currentQuestion += 1;
+                renderCurrentQuestion();
+            }
+            else {
+                renderConclusion();
+            }
         });
     }
 
@@ -63,13 +68,7 @@
             .addClass('question__feedback--' + (isCorrect ? 'correct' : 'false'));
 
         elements.viewContainer.find('[data-hook="submit"]').removeClass('question__submit--active');
-
-        if(state.currentQuestion < state.questions.length - 1) {
-            elements.viewContainer.find('[data-hook="next"]').addClass('question__next--active');
-        }
-        else {
-            renderConclusion();
-        }
+        elements.viewContainer.find('[data-hook="next"]').addClass('question__next--active');
     }
 
     function renderConclusion () {
