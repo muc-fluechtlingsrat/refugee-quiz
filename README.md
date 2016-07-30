@@ -23,6 +23,8 @@ http-server
 * Input data (questions, answers) presently in questions.json, to move to database later
 * Output data (answers of users) not implemented yet
 
+* mobile first 
+
 ## Content
 
 * Target group: Germans, grown-ups, friendly and interested, but not refugee experts
