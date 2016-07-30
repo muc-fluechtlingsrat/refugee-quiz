@@ -19,7 +19,7 @@
     };
 
     function getQuestions () {
-        return $.getJSON('questions.json').then(function (data) {
+        return $.getJSON('data/questions.json').then(function (data) {
             return data.questions;
         });
     }
