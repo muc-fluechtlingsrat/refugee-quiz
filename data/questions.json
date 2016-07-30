@@ -1,0 +1,32 @@
+{
+   "questions" : [
+      {
+         "id" : 1,
+         "text" : "Wie ist die Situation für Flüchtlinge auf dem Arbeitsmarkt?",
+         "answers" : [
+            {
+               "feedback" : "Flüchtlinge werden nicht auf dem Arbeitsmarkt bevorzugt. Asylsuchende und geduldete Personen dürfen in den ersten drei Monaten ihres Aufenthalts gar nicht arbeiten. Auch danach haben sie relativ schlechte Chancen auf einen Job, weil es „bevorrechtigte Arbeitnehmer“ gibt, d.h. Deutsche und EU-Ausländer.",
+               "text" : "Auf dem Arbeitsmarkt werden Flüchtlinge besonders bevorzugt.",
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "isCorrect" : false,
+               "id" : 1
+            },
+            {
+               "feedback" : "Das stimmt. Das deutsche Recht bevorzugt auf dem Arbeitsmarkt Deutsche und EU-Ausländer.",
+               "isCorrect" : true,
+               "id" : 2,
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "text" : "Auf dem Arbeitsmarkt stehen Flüchtlinge Deutschen und EU-Ausländern."
+            },
+            {
+               "text" : "Auf dem Arbeitsmarkt bekommen Fluechtlinge meistens hochqualifizierte Stellen.",
+               "id" : 3,
+               "isCorrect" : false,
+               "source" : "Institut für Arbeitsmarkt und Berufsforschung 13/2015, zitiert von Landeshauptstadt Muenchen",
+               "feedback" : "Das stimmt nicht. Sowie auch andere Ausländer in Deutschland, arbeiten Flüchtlinge überwiegend in anstrengende Bereichen wie z.B. saisonale und Nachtarbeit. Außerdem sind viele ausländische Arbeitnehmer mit beruflichem Abschluss überqualifiziert – 22,5% im Vergleich zu 10,6% der Deutschen."
+            }
+         ],
+         "title" : "Auf dem Arbeitsmarkt"
+      }
+   ]
+}
