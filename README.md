@@ -22,7 +22,6 @@ http-server
 * [Code on GitHub](https://github.com/muc-fluechtlingsrat/refugee-quiz)
 * Input data (questions, answers) presently in questions.json, to move to database later
 * Output data (answers of users) not implemented yet
-
 * mobile first 
 
 ## Content
