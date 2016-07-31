@@ -1,6 +1,0 @@
-answer_id, question_id, text, is_Correct
-1, 1, "weniger als 3", true
-1, 2, "3 bis 10", false
-1, 3, "10 oder mehr", false
-
-

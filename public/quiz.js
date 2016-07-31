@@ -64,6 +64,7 @@
 
         elements.viewContainer.find('[data-hook="feedback"]')
             .text(selectedAnswer.feedback)
+            .append(selectedAnswer.source)
             .addClass('question__feedback--active')
             .addClass('question__feedback--' + (isCorrect ? 'correct' : 'false'));
 
